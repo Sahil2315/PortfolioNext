@@ -1,0 +1,42 @@
+const About = () => {
+  return (
+    <div id="sect-about" className="bigSections w-full h-screen relative">
+      <div className="bg-about h-full w-full absolute z-0 top-0 left-0"></div>
+      <div className="bg-about2 h-full w-full absolute z-10 top-0 left-0"></div>
+      <div className="h-full w-full absolute z-20 top-0 left-0 bg-black/40 backdrop-blur-[2px]"></div>
+      <div className=" relative z-50 flex flex-col w-full h-full justify-center items-center">
+        <div className="w-2/5">
+          <span className="text-3xl font-bold">About Me</span>
+          <p className="text-xl font-semibold mt-8">
+            I am Sahil Nigam, a recent graduate with a Bachelor's degree (B.Tech)
+            in Computer Science and Engineering, actively seeking Software
+            Developer roles. My journey into the world of technology started
+            during high school as a passionate gamer. Over time, my curiosity
+            about building computers evolved into a love for learning how they
+            work. I pursued my interest further by enrolling in a school-offered
+            programming course, and the thrill of coding and creating has stayed
+            with me ever since.
+          </p>
+          <p className="text-xl font-semibold mt-4">
+            Today, I have solid programming knowledge and practical experience
+            with TypeScript, JavaScript, Python, C++, and C, complemented by expertise in web
+            development (MERN and PERN stacks) along with Backend Python Development (FastAPI) and mobile development (React
+            Native). I enjoy leveraging these skills to build feature-rich and
+            fully functional applications.
+          </p>
+          <p className="text-xl font-semibold mt-4">
+            Beyond the technical realm, I am deeply passionate about sports,
+            particularly basketball. I also have an appreciation for music,
+            especially rock genres, and enjoy playing the guitar in my free time.
+          </p>
+          <p className="text-xl font-semibold mt-4">
+            Let’s collaborate and innovate—exploring how my skills, experience,
+            and enthusiasm can make an impact!
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;
