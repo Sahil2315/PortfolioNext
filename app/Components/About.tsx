@@ -8,7 +8,7 @@ const About = () => {
         <div className="w-2/5">
           <span className="text-3xl font-bold">About Me</span>
           <p className="text-xl font-semibold mt-8">
-            I am Sahil Nigam, a recent graduate with a Bachelor's degree (B.Tech)
+            I am Sahil Nigam, a recent graduate with a Bachelor&apos;s degree (B.Tech)
             in Computer Science and Engineering, actively seeking Software
             Developer roles. My journey into the world of technology started
             during high school as a passionate gamer. Over time, my curiosity

@@ -21,7 +21,7 @@ const Contact = () => {
             </a>
           </div>
           <span className="text-3xl font-semibold mt-12">Contact Me</span>
-          <span className="font-semibold text-xl mt-4">I'll Be Glad to Connect with You.</span>
+          <span className="font-semibold text-xl mt-4">I&apos;ll Be Glad to Connect with You.</span>
           <input type="text" className="mt-8 py-2 px-2 rounded-lg bg-black/25 text-md w-7/8 outline-none" placeholder="Your Name"/>
           <input type="text" className="mt-4 py-2 px-2 rounded-lg bg-black/25 text-md w-7/8 outline-none" placeholder="Your Email"/>
           <input type="text" className="mt-4 py-2 px-2 rounded-lg bg-black/25 text-md w-7/8 outline-none" placeholder="Subject"/>

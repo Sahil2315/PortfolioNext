@@ -46,7 +46,7 @@ const Projects = () => {
                   CrosNotes
                 </span>
                 <span className="mt-2">
-                A versatile full-stack application created to offer seamless note-taking and reminder-setting functionality across desktops, laptops, and mobile devices. It leverages the operating system's push notifications alongside integrated reminders to ensure efficient and reliable performance.
+                A versatile full-stack application created to offer seamless note-taking and reminder-setting functionality across desktops, laptops, and mobile devices. It leverages the operating system&apos;s push notifications alongside integrated reminders to ensure efficient and reliable performance.
                 </span>
                 <div>
                 <div className="flex flex-row mt-4">

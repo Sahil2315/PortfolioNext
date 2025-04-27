@@ -38,7 +38,7 @@ const Home = () => {
         <div className="absolute h-full w-full top-0 left-0 z-40 bg-black/20 backdrop-blur-[4px]" />
         <div className="flex flex-col font-semibold w-1/3 z-50">
             <div className="text-xl tracking-tight mt-4 flex flex-col">
-                <span className="text-3xl">Hi, I'm Sahil Nigam,</span>
+                <span className="text-3xl">Hi, I&apos;m Sahil Nigam,</span>
                 <span className="mt-4">A passionate Full Stack Developer with expertise in building dynamic and scalable websites and apps using TypeScript and Python.</span>
                 <span className="mt-4">With hands-on experience and a creative approach to problem-solving, I transform ideas into seamless digital experiences.</span>
             </div>
