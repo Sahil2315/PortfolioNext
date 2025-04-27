@@ -15,7 +15,7 @@ const Navbar = ({curActive}: {curActive: string}) => {
     indexMap.set("sect-contact", 4)
     useEffect(() => {
         setIndex(indexMap.get(curActiveState))
-    }, [curActiveState])
+    }, [curActiveState, indexMap])
     return (
         <div className={`fixed z-60 top-4 left-0 w-full flex flex-row justify-center`}>
             <div className='flex flex-row w-max bg-black/70 backdrop-blur px-4 py-1 rounded-3xl'>
