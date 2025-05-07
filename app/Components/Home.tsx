@@ -47,16 +47,16 @@ const Home = () => {
                 Explore my portfolio to learn more about my projects, skills, and journey in the tech world.
             </div>
             <div className="flex flex-row items-center mt-4 w-full relative">
-                <a href="#sect-contact" className="py-1 px-4 rounded-lg bg-indigo-600/30 flex flex-row items-center transition-all duration-300 hover:bg-indigo-700/60 xl:text-lg md:text-md"> 
+                <a href="#sect-contact" className="py-1 px-4 rounded-lg bg-indigo-600/30 flex flex-row items-center transition-all duration-300 hover:bg-indigo-700/60 xl:text-xl max-xl:text-lg max-md:text-sm"> 
                     <span>
                         Contact Me
                     </span>
-                    <span className="text-3xl ml-2">
+                    <span className="xl:text-3xl max-xl:text-xl max-md:text-md ml-2">
                         <RiCornerRightDownLine /> 
                     </span>
                     
                 </a>
-                <div className="top-0 right-6 absolute text-[30px] flex flex-row items-center">
+                <div className="top-0 right-6 absolute lg:text-[30px] max-lg:text-[20px] flex flex-row items-center">
                     <TooltipProvider>
                         <Tooltip>
                             <TooltipTrigger>
