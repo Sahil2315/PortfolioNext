@@ -5,8 +5,8 @@ const Projects = () => {
     return (
       <div id="sect-projects" className="bigSections w-full">
         <div className="w-full h-full flex flex-col justify-center items-center z-50">
-          <div className="w-2/3 flex flex-col my-20">
-            <span className="text-3xl font-bold">
+          <div className="xl:w-2/3 flex flex-col my-20 md:w-4/5 max-md:5/6">
+            <span className="text-3xl font-bold ml-1">
               My Projects
             </span>
             <div className="flex flex-col mt-8">
@@ -131,7 +131,7 @@ const Projects = () => {
                     </a>
                   </div>
                   <div>
-                    <a target="blank" className="px-2 py-1 flex flex-row items-center rounded-lg bg-blue-200/10 text-sky-300 opacity-70 hover:opacity-100 transition-all duration-300" href="https://emp-next-five.vercel.app/">
+                    <a target="blank" className="px-2 py-1 flex flex-row items-center rounded-lg bg-blue-200/10 text-sky-300 opacity-70 hover:opacity-100 transition-all duration-300" href="https://emplois.sahilnigam.online">
                       <FaLink className="text-2xl mr-2"/>
                       <span>View Online</span>
                     </a>

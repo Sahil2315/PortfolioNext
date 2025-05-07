@@ -30,16 +30,16 @@ const Skills = () => {
       id="sect-skills"
       className="bigSections w-full h-screen flex justify-center items-center"
     >
-      <div className="w-4/5 flex flex-col">
+      <div className="xl:w-2/3 md:w-4/5 flex flex-col">
         <div className="text-3xl font-semibold">My Skills</div>
-        <div className="mt-8 flex flex-row items-center">
+        <div className="mt-8 flex xl:flex-row sm:flex-col xl:items-center">
           <div className="flex flex-col">
             <div className="text-xl">Frontend</div>
-            <div className="h-[6px] rounded mt-2 w-[400px] bg-slate-500/60">
+            <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[80%] innerbar opacity-80" />
             </div>
           </div>
-          <div className="ml-24 flex flex-row text-gray-100 text-xl">
+          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl sm:mt-4 md:text-md">
             {/* Frontend Technologies */}
             <div className="flex cursor-pointer flex-row items-center opacity-50 transition-all duration-400 hover:opacity-100">
               <RiReactjsFill />
@@ -67,14 +67,14 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 flex flex-row items-center">
+        <div className="mt-8 flex xl:flex-row sm:flex-col xl:items-center">
           <div className="flex flex-col">
             <div className="text-xl">Backend</div>
-            <div className="h-[6px] rounded mt-2 w-[400px] bg-slate-500/60">
+            <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[75%] innerbar opacity-80" />
             </div>
           </div>
-          <div className="ml-24 flex flex-row text-gray-100 text-xl">
+          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl sm:mt-4 md:text-md">
             {/* Backend Technologies */}
             <div className="flex cursor-pointer flex-row items-center opacity-50 transition-all duration-400 hover:opacity-100">
               <RiNodejsFill />
@@ -101,14 +101,14 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 flex flex-row items-center">
+        <div className="mt-8 flex xl:flex-row sm:flex-col xl:items-center">
           <div className="flex flex-col">
             <div className="text-xl">DBMS</div>
-            <div className="h-[6px] rounded mt-2 w-[400px] bg-slate-500/60">
+            <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[65%] innerbar opacity-80" />
             </div>
           </div>
-          <div className="ml-24 flex flex-row text-gray-100 text-xl">
+          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl sm:mt-4 md:text-md">
             {/* DBMS Technologies */}
             <div className="flex cursor-pointer flex-row items-center opacity-50 transition-all duration-400 hover:opacity-100">
               <TbBrandMysql />
@@ -128,14 +128,14 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 flex flex-row items-center">
+        <div className="mt-8 flex xl:flex-row sm:flex-col xl:items-center">
           <div className="flex flex-col">
             <div className="text-xl">Platform and Tools</div>
-            <div className="h-[6px] rounded mt-2 w-[400px] bg-slate-500/60">
+            <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[50%] innerbar opacity-80" />
             </div>
           </div>
-          <div className="ml-24 flex flex-row text-gray-100 text-xl">
+          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl sm:mt-4 md:text-md">
             {/* Platform and Tools AWS, Linux, Git, GitHub, Vercel */}
             <div className="flex cursor-pointer flex-row items-center opacity-50 transition-all duration-400 hover:opacity-100">
               <FaLinux />
@@ -163,20 +163,20 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 flex flex-row items-center">
+        <div className="mt-8 flex xl:flex-row sm:flex-col xl:items-center">
           <div className="flex flex-col">
             <div className="text-xl">Problem Solving</div>
-            <div className="h-[6px] rounded mt-2 w-[400px] bg-slate-500/60">
+            <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[65%] innerbar opacity-80" />
             </div>
           </div>
-          <div className="ml-24 flex flex-row text-gray-100 text-xl">
+          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl sm:mt-4 md:text-md">
             {/* Problem Solving Related Skills */}
             <div className="opacity-50 transition-all duration-400 cursor-pointer hover:opacity-100">
-              Data Structures and Algorithms (DSA)
+              Data Structures and Algorithms
             </div>
             <div className="ml-4 opacity-50 transition-all duration-400 cursor-pointer hover:opacity-100">
-              Object Oriented Programming (OOP)
+              Object Oriented Programming
             </div>
             <div className="ml-4 opacity-50 transition-all duration-400 cursor-pointer hover:opacity-100">
               System Design
