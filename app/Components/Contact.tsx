@@ -50,8 +50,8 @@ const Contact = () => {
       id="sect-contact"
       className="bigSections w-full h-screen flex justify-center items-center"
     >
-      <div className="w-2/5 rounded-xl bg-indigo-700/10 p-6 flex flex-col items-center relative">
-        <div className="top-2 right-2 absolute text-[35px] flex flex-row">
+      <div className="2xl:w-2/5 max-2xl:w-3/5 max-lg:w-4/5 max-sm:w-5/6 rounded-xl bg-indigo-700/10 p-6 flex flex-col items-center relative">
+        <div className="top-2 right-2 absolute xl:text-[35px] max-xl:text-[25px] max-md:text-[19px] flex flex-row">
           <a
             target="_blank"
             className="opacity-40 transition-all duration-400 hover:opacity-85"
@@ -81,8 +81,8 @@ const Contact = () => {
             <SiLeetcode />
           </a>
         </div>
-        <span className="text-3xl font-semibold mt-12">Contact Me</span>
-        <span className="font-semibold text-xl mt-4">
+        <span className="xl:text-3xl max-xl:text-xl max-md:text-md font-semibold mt-12">Contact Me</span>
+        <span className="font-semibold xl:text-xl max-xl:text-md max-md:text-xs mt-4">
           I&apos;ll Be Glad to Connect with You.
         </span>
         <input

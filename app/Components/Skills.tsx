@@ -30,16 +30,16 @@ const Skills = () => {
       id="sect-skills"
       className="bigSections w-full h-screen flex justify-center items-center"
     >
-      <div className="xl:w-2/3 md:w-4/5 flex flex-col">
+      <div className="2xl:w-2/3 md:w-4/5 max-md:w-5/6 flex flex-col">
         <div className="text-3xl font-semibold">My Skills</div>
-        <div className="mt-8 flex xl:flex-row sm:flex-col xl:items-center">
+        <div className="mt-8 flex xl:flex-row max-xl:flex-col xl:items-center">
           <div className="flex flex-col">
             <div className="text-xl">Frontend</div>
             <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[80%] innerbar opacity-80" />
             </div>
           </div>
-          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl sm:mt-4 md:text-md">
+          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl max-xl:mt-4 max-md:text-md max-sm:text-xs sm:text-sm max-2xl:text-md">
             {/* Frontend Technologies */}
             <div className="flex cursor-pointer flex-row items-center opacity-50 transition-all duration-400 hover:opacity-100">
               <RiReactjsFill />
@@ -67,14 +67,14 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 flex xl:flex-row sm:flex-col xl:items-center">
+        <div className="mt-8 flex xl:flex-row max-xl:flex-col xl:items-center">
           <div className="flex flex-col">
             <div className="text-xl">Backend</div>
             <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[75%] innerbar opacity-80" />
             </div>
           </div>
-          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl sm:mt-4 md:text-md">
+          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl max-xl:mt-4 md:text-md max-sm:text-xs sm:text-sm max-2xl:text-md">
             {/* Backend Technologies */}
             <div className="flex cursor-pointer flex-row items-center opacity-50 transition-all duration-400 hover:opacity-100">
               <RiNodejsFill />
@@ -101,14 +101,14 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 flex xl:flex-row sm:flex-col xl:items-center">
+        <div className="mt-8 flex xl:flex-row max-xl:flex-col xl:items-center">
           <div className="flex flex-col">
             <div className="text-xl">DBMS</div>
             <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[65%] innerbar opacity-80" />
             </div>
           </div>
-          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl sm:mt-4 md:text-md">
+          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl max-xl:mt-4 md:text-md max-sm:text-xs sm:text-sm max-2xl:text-md">
             {/* DBMS Technologies */}
             <div className="flex cursor-pointer flex-row items-center opacity-50 transition-all duration-400 hover:opacity-100">
               <TbBrandMysql />
@@ -128,14 +128,14 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 flex xl:flex-row sm:flex-col xl:items-center">
+        <div className="mt-8 flex xl:flex-row max-xl:flex-col xl:items-center">
           <div className="flex flex-col">
             <div className="text-xl">Platform and Tools</div>
             <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[50%] innerbar opacity-80" />
             </div>
           </div>
-          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl sm:mt-4 md:text-md">
+          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl max-xl:mt-4 md:text-md max-sm:text-xs sm:text-sm max-2xl:text-md">
             {/* Platform and Tools AWS, Linux, Git, GitHub, Vercel */}
             <div className="flex cursor-pointer flex-row items-center opacity-50 transition-all duration-400 hover:opacity-100">
               <FaLinux />
@@ -163,14 +163,14 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 flex xl:flex-row sm:flex-col xl:items-center">
+        <div className="mt-8 flex xl:flex-row max-xl:flex-col xl:items-center">
           <div className="flex flex-col">
             <div className="text-xl">Problem Solving</div>
             <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[65%] innerbar opacity-80" />
             </div>
           </div>
-          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl sm:mt-4 md:text-md">
+          <div className="xl:ml-12 flex flex-row text-gray-100 2xl:text-xl max-xl:mt-4 md:text-md max-sm:text-xs sm:text-sm max-2xl:text-md">
             {/* Problem Solving Related Skills */}
             <div className="opacity-50 transition-all duration-400 cursor-pointer hover:opacity-100">
               Data Structures and Algorithms

@@ -17,7 +17,7 @@ const Navbar = ({curActive}: {curActive: string}) => {
         setIndex(indexMap.get(curActiveState))
     }, [curActiveState, indexMap])
     return (
-        <div className={`fixed z-60 top-4 left-0 w-full flex flex-row justify-center`}>
+        <div className={`fixed z-60 top-4 left-0 w-full flex flex-row justify-center max-md:hidden`}>
             <div className='flex flex-row w-max bg-black/70 backdrop-blur px-4 py-1 rounded-3xl'>
             {
                 sectionsJSON.map((section, index) => (
