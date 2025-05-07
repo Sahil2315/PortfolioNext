@@ -37,7 +37,7 @@ const Contact = () => {
       } else {
         toast(
           <span className="text-xl p-4 text-rose-500">
-            Message Couldn't be sent. Please Try Again Later.
+            Message Couldn&apos;t be sent. Please Try Again Later.
           </span>
         );
       }
