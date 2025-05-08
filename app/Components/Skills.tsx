@@ -31,10 +31,14 @@ const Skills = () => {
       className="bigSections w-full h-screen flex justify-center items-center"
     >
       <div className="2xl:w-2/3 md:w-4/5 max-md:w-5/6 flex flex-col">
-        <div className="xl:text-3xl max-xl:text-xl max-md:text-lg font-semibold">My Skills</div>
+        <div className="xl:text-3xl max-xl:text-xl max-md:text-lg font-semibold">
+          My Skills
+        </div>
         <div className="mt-8 flex xl:flex-row max-xl:flex-col xl:items-center">
           <div className="flex flex-col">
-            <div className="xl:text-xl max-xl:text-lg max-md:text-md">Frontend</div>
+            <div className="xl:text-xl max-xl:text-lg max-md:text-sm">
+              Frontend
+            </div>
             <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[80%] innerbar opacity-80" />
             </div>
@@ -69,7 +73,9 @@ const Skills = () => {
         </div>
         <div className="mt-8 flex xl:flex-row max-xl:flex-col xl:items-center">
           <div className="flex flex-col">
-            <div className="xl:text-xl max-xl:text-lg max-md:text-md">Backend</div>
+            <div className="xl:text-xl max-xl:text-lg max-md:text-sm">
+              Backend
+            </div>
             <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[75%] innerbar opacity-80" />
             </div>
@@ -103,7 +109,7 @@ const Skills = () => {
         </div>
         <div className="mt-8 flex xl:flex-row max-xl:flex-col xl:items-center">
           <div className="flex flex-col">
-            <div className="xl:text-xl max-xl:text-lg max-md:text-md">DBMS</div>
+            <div className="xl:text-xl max-xl:text-lg max-md:text-sm">DBMS</div>
             <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[65%] innerbar opacity-80" />
             </div>
@@ -130,7 +136,9 @@ const Skills = () => {
         </div>
         <div className="mt-8 flex xl:flex-row max-xl:flex-col xl:items-center">
           <div className="flex flex-col">
-            <div className="xl:text-xl max-xl:text-lg max-md:text-md">Platform and Tools</div>
+            <div className="xl:text-xl max-xl:text-lg max-md:text-sm">
+              Platform and Tools
+            </div>
             <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[50%] innerbar opacity-80" />
             </div>
@@ -165,7 +173,9 @@ const Skills = () => {
         </div>
         <div className="mt-8 flex xl:flex-row max-xl:flex-col xl:items-center">
           <div className="flex flex-col">
-            <div className="xl:text-xl max-xl:text-lg max-md:text-md">Problem Solving</div>
+            <div className="xl:text-xl max-xl:text-lg max-md:text-sm">
+              Problem Solving
+            </div>
             <div className="h-[6px] rounded mt-2 xl:w-[400px] bg-slate-500/60">
               <div className="h-[6px] rounded w-[65%] innerbar opacity-80" />
             </div>
