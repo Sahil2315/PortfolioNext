@@ -38,12 +38,12 @@ const Home = () => {
         </div>
         <div className="absolute h-full w-full top-0 left-0 z-40 bg-black/20 backdrop-blur-[4px]" />
         <div className="flex flex-col font-semibold z-50 2xl:w-4/7 xl:w-3/4 max-lg:w-4/5 max-md:w-5/6">
-            <div className="tracking-tight mt-4 flex flex-col md:text-md xl:text-xl">
-                <span className="md:text-xl xl:text-3xl">Hi, I&apos;m Sahil Nigam,</span>
+            <div className="tracking-tight mt-4 flex flex-col max-lg:text-md lg:text-xl">
+                <span className="max-xl:text-xl max-md:text-lg xl:text-3xl">Hi, I&apos;m Sahil Nigam,</span>
                 <span className="mt-4">A passionate Full Stack Developer with expertise in building dynamic and scalable websites and apps using TypeScript and Python.</span>
                 <span className="mt-4">With hands-on experience and a creative approach to problem-solving, I transform ideas into seamless digital experiences.</span>
             </div>
-            <div className="tracking-tight mt-4 md:text-md xl:text-xl">
+            <div className="tracking-tight mt-4 max-lg:text-md lg:text-xl">
                 Explore my portfolio to learn more about my projects, skills, and journey in the tech world.
             </div>
             <div className="flex flex-row items-center mt-4 w-full relative">
@@ -60,7 +60,7 @@ const Home = () => {
                     <TooltipProvider>
                         <Tooltip>
                             <TooltipTrigger>
-                                <a target="_blank" className="opacity-40 transition-all duration-300 hover:opacity-85" href="https://github.com/Sahil2315/">
+                                <a target="_blank" className="md:opacity-40 max-md:opacity-85 transition-all duration-300 hover:opacity-85" href="https://github.com/Sahil2315/">
                                     <BsGithub />
                                 </a>
                             </TooltipTrigger>
@@ -70,7 +70,7 @@ const Home = () => {
                     <TooltipProvider>
                         <Tooltip>
                             <TooltipTrigger className="ml-4 flex flex-row items-center">
-                                <a target="_blank" className="opacity-40 transition-all duration-300 hover:opacity-85" href="https://www.linkedin.com/in/sahil-nigam-496658238/">
+                                <a target="_blank" className="md:opacity-40 max-md:opacity-85 transition-all duration-300 hover:opacity-85" href="https://www.linkedin.com/in/sahil-nigam-496658238/">
                                     <BsLinkedin />
                                 </a>
                             </TooltipTrigger>
@@ -80,7 +80,7 @@ const Home = () => {
                     <TooltipProvider>
                         <Tooltip>
                             <TooltipTrigger className="ml-4 flex flex-row items-center">
-                                <a target="_blank" className="opacity-40 transition-all duration-300 hover:opacity-85" href="https://discord.com/users/sahilnigam">
+                                <a target="_blank" className="md:opacity-40 max-md:opacity-85 transition-all duration-300 hover:opacity-85" href="https://discord.com/users/sahilnigam">
                                     <BsDiscord />
                                 </a>
                             </TooltipTrigger>
@@ -90,7 +90,7 @@ const Home = () => {
                     <TooltipProvider>
                         <Tooltip>
                             <TooltipTrigger className="ml-4 flex flex-row items-center">
-                                <a target="_blank" className="opacity-40 transition-all duration-300 hover:opacity-85" href="https://leetcode.com/u/Sahil2315/">
+                                <a target="_blank" className="md:opacity-40 max-md:opacity-85 transition-all duration-300 hover:opacity-85" href="https://leetcode.com/u/Sahil2315/">
                                     <SiLeetcode />
                                 </a>
                             </TooltipTrigger>

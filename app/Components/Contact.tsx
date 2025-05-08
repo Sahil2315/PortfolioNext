@@ -81,7 +81,9 @@ const Contact = () => {
             <SiLeetcode />
           </a>
         </div>
-        <span className="xl:text-3xl max-xl:text-xl max-md:text-md font-semibold mt-12">Contact Me</span>
+        <span className="xl:text-3xl max-xl:text-xl max-md:text-md font-semibold mt-12">
+          Contact Me
+        </span>
         <span className="font-semibold xl:text-xl max-xl:text-md max-md:text-xs mt-4">
           I&apos;ll Be Glad to Connect with You.
         </span>
@@ -89,33 +91,33 @@ const Contact = () => {
           value={senderName}
           onChange={(e) => setSenderName(e.target.value)}
           type="text"
-          className="mt-8 py-2 px-2 rounded-lg bg-black/25 text-md w-7/8 outline-none"
+          className="mt-8 py-2 px-2 rounded-lg bg-black/25 lg:text-md max-lg:text-sm w-7/8 outline-none"
           placeholder="Your Name"
         />
         <input
           value={senderEmail}
           onChange={(e) => setSenderEmail(e.target.value)}
           type="text"
-          className="mt-4 py-2 px-2 rounded-lg bg-black/25 text-md w-7/8 outline-none"
+          className="mt-4 py-2 px-2 rounded-lg bg-black/25 lg:text-md max-lg:text-sm w-7/8 outline-none"
           placeholder="Your Email"
         />
         <input
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
           type="text"
-          className="mt-4 py-2 px-2 rounded-lg bg-black/25 text-md w-7/8 outline-none"
+          className="mt-4 py-2 px-2 rounded-lg bg-black/25 lg:text-md max-lg:text-sm w-7/8 outline-none"
           placeholder="Subject"
         />
         <textarea
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           rows={7}
-          className="mt-4 py-2 px-2 rounded-lg bg-black/25 text-md w-7/8 outline-none"
+          className="mt-4 py-2 px-2 rounded-lg bg-black/25 lg:text-md max-lg:text-sm w-7/8 outline-none"
           placeholder="Your Message"
         ></textarea>
         <button
           onClick={formSubmit}
-          className="text-md py-2 px-4 mb-4 bg-indigo-600/50 hover:bg-indigo-700/80 flex flex-row items-center mt-8 rounded-lg"
+          className="lg:text-md max-lg:text-sm py-2 px-4 mb-4 bg-indigo-600/50 hover:bg-indigo-700/80 flex flex-row items-center mt-8 rounded-lg"
         >
           <span className="mr-2">Send</span>
           <BsSendFill />
