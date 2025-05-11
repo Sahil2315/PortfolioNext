@@ -1,10 +1,13 @@
 const About = () => {
   return (
-    <div id="sect-about" className="bigSections w-full min-h-screen relative">
+    <div
+      id="sect-about"
+      className="bigSections w-full md:h-screen max-md:min-h-screen relative"
+    >
       <div className="bg-about h-full w-full absolute z-0 top-0 left-0"></div>
       <div className="bg-about2 h-full w-full absolute z-10 top-0 left-0"></div>
       <div className="h-full w-full absolute z-20 top-0 left-0 bg-black/40 backdrop-blur-[2px]"></div>
-      <div className=" relative z-50 flex flex-col w-full h-full justify-center items-center">
+      <div className="relative z-50 flex flex-col w-full h-full justify-center items-center max-md:my-24">
         <div className="max-2xl:w-3/5 max-lg:w-4/5 max-sm:5/6 2xl:w-1/2">
           <span className="xl:text-3xl md:text-xl max-md:text-lg font-bold">
             About Me
@@ -34,8 +37,8 @@ const About = () => {
             time.
           </p>
           <p className="xl:text-xl lg:text-lg max-lg:text-md lg:font-semibold lg:mt-4 max-lg:mt-2 max-sm:text-sm">
-            Let&apos;s collaborate and innovate—exploring how my skills, experience,
-            and enthusiasm can make an impact!
+            Let&apos;s collaborate and innovate—exploring how my skills,
+            experience, and enthusiasm can make an impact!
           </p>
         </div>
       </div>
